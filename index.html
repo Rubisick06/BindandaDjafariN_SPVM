@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Prototype étudiant — page d’accueil sur la prévention de la fraude.">
+  <title>Fraude | TP2 SPVM</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="spvm-homepage">
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
+<header class="spvm-home-header">
+  <div class="spvm-home-header-inner">
+    <a class="spvm-home-brand" href="index.html" aria-label="Accueil">
+      <img class="spvm-home-logo" src="assets/spvm-logo.jpg" alt="SPVM">
+    </a>
+
+    <div class="spvm-home-header-right">
+      <nav class="spvm-home-mini-nav" aria-label="Navigation secondaire">
+        <a href="https://spvm.qc.ca/fr/Actualites" target="_blank" rel="noopener">Actualités</a>
+        <a href="#">Zone jeunesse</a>
+        <a href="https://spvm.qc.ca/fr/Aines" target="_blank" rel="noopener">Zone aînés</a>
+        <a href="https://spvm.qc.ca/fr/Medias" target="_blank" rel="noopener">Zone médias</a>
+        <a href="https://spvm.qc.ca/en" target="_blank" rel="noopener">EN</a>
+      </nav>
+
+      <form class="spvm-home-search" data-search-form role="search">
+        <label for="site-search" class="skip-link">Recherche</label>
+        <input id="site-search" type="search" placeholder="Recherche par mot(s) clé(s)">
+        <button type="submit" aria-label="Rechercher">⌕</button>
+      </form>
+
+      <nav class="spvm-home-main-nav" data-primary-nav aria-label="Navigation principale">
+        <a href="#">Trouver de<br>l'information</a>
+        <a href="#">Découvrir<br>le SPVM</a>
+        <a href="#">Police de<br>quartier</a>
+        <a href="#">Personnes<br>recherchées</a>
+        <a href="#">Emploi et<br>carrières</a>
+      </nav>
+    </div>
+
+    <button class="spvm-home-menu-btn" type="button" data-menu-toggle aria-expanded="false">Menu</button>
+  </div>
+
+  <div class="spvm-emergency-bar">
+    <div class="spvm-emergency-inner">
+      <strong>POUR TOUTE URGENCE <span>☎ 911</span></strong>
+      <a href="https://spvm.qc.ca/fr/Pages/Nous-joindre" target="_blank" rel="noopener">COMMUNIQUER AVEC NOUS <b>›</b></a>
+    </div>
+  </div>
+</header>
+
+<main id="contenu" class="fraud-home">
+
+ <!-- HERO VIDÉO -->
+<section class="fraud-home-hero">
+
+  <video
+    class="fraud-home-hero-video"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="auto"
+  >
+    <source src="assets/homepage-fraud.mp4" type="video/mp4">
+  </video>
+
+  <div class="fraud-home-shell fraud-home-hero-inner">
+
+    <div class="fraud-home-hero-copy">
+
+      <h1>
+        Service de<br>
+        la fraude<span>.</span>
+      </h1>
+
+      <p>
+        La fraude peut prendre plusieurs formes et toucher n’importe qui.<br>
+        Apprenez à reconnaître les signes, à comprendre les méthodes<br>
+        utilisées par les fraudeurs et à savoir quoi faire si une situation vous<br>
+        semble suspecte.
+      </p>
+
+      <a class="fraud-home-blue-link" href="#fraudes">
+        Comprendre. Reconnaître. Prévenir. Agir.
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- INTRO -->
+  <section class="fraud-home-overview">
+
+    <div class="fraud-home-shell">
+
+      <h2>
+        Qu’est-ce qu’une fraude?
+      </h2>
+
+      <p>
+        La fraude consiste à mener malhonnêtement le public ou une personne à encourir une perte financière,
+        à se départir d’un bien ou à fournir un service à la suite d’une tromperie, d’un mensonge,
+        d’un abus de confiance ou de tout autre moyen semblable.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- TYPES DE FRAUDE -->
+  <section class="fraud-home-types" id="fraudes">
+
+    <div class="fraud-home-shell">
+
+
+      <div class="fraud-home-grid">
+
+        <!-- 1 -->
+        <a class="fraud-home-card" href="#">
+
+          <div class="fraud-home-card-image fraud-photo-love">
+            <img
+    src="assets/FraudeAmoureuse.jpg"
+    alt="Fraude amoureuse"
+    class="fraud-home-card-image"
+>
+          </div>
+
+          <div class="fraud-home-card-bar">
+            <strong>Fraude amoureuse</strong>
+            <span>En savoir plus ›</span>
+          </div>
+
+        </a>
+
+
+        <!-- 2 -->
+        <a class="fraud-home-card" href="fraude-cheque.html">
+
+          <div class="fraud-home-card-image fraud-photo-cheque">
+            <img
+    src="assets/FraudeCheque.jpg"
+    alt="Fraude par chèque"
+    class="fraud-home-card-image"
+>
+          </div>
+
+          <div class="fraud-home-card-bar">
+            <strong>Fraude par chèque</strong>
+            <span>En savoir plus ›</span>
+          </div>
+
+        </a>
+
+
+        <!-- 3 -->
+        <a class="fraud-home-card" href="#">
+
+          <div class="fraud-home-card-image fraud-photo-phishing">
+            <img
+    src="assets/Hameconnage.jpg"
+    alt="Hameçonnage"
+    class="fraud-home-card-image"
+>
+          </div>
+
+          <div class="fraud-home-card-bar">
+            <strong>Hameçonnage</strong>
+            <span>En savoir plus ›</span>
+          </div>
+
+        </a>
+
+
+        <!-- 4 -->
+        <a class="fraud-home-card" href="#">
+
+          <div class="fraud-home-card-image fraud-photo-identity">
+            <img
+    src="assets/Vol_Identite.jpg"
+    alt="Fraude d'identité"
+    class="fraud-home-card-image"
+>
+          </div>
+
+          <div class="fraud-home-card-bar">
+            <strong>Vol d’identité</strong>
+            <span>En savoir plus ›</span>
+          </div>
+
+        </a>
+
+
+        <!-- 5 -->
+        <a class="fraud-home-card" href="#">
+
+          <div class="fraud-home-card-image fraud-photo-rep">
+            <img
+    src="assets/FraudeFauxRepresentant.jpg"
+    alt="Faux représentant"
+    class="fraud-home-card-image"
+>
+          </div>
+
+          <div class="fraud-home-card-bar">
+            <strong>Faux représentant</strong>
+            <span>En savoir plus ›</span>
+          </div>
+
+        </a>
+
+
+        <!-- 6 -->
+        <a class="fraud-home-card" href="fraude-president.html">
+
+          <div class="fraud-home-card-image fraud-photo-president">
+            <img
+    src="assets/FraudePresident.jpg"
+    alt="Fraude du président"
+    class="fraud-home-card-image"
+>
+          </div>
+
+          <div class="fraud-home-card-bar">
+            <strong>Fraude du président</strong>
+            <span>En savoir plus ›</span>
+          </div>
+
+        </a>
+
+
+        <!-- 7 -->
+        <a class="fraud-home-card" href="#">
+
+          <div class="fraud-home-card-image fraud-photo-house">
+            <img
+    src="assets/FraudeHypotheque.jpg"
+    alt="Fraude hypothécaire"
+    class="fraud-home-card-image"
+>
+          </div>
+
+          <div class="fraud-home-card-bar">
+            <strong>Fraude hypothécaire</strong>
+            <span>En savoir plus ›</span>
+          </div>
+
+        </a>
+
+
+        <!-- 8 -->
+        <a class="fraud-home-card" href="#">
+
+          <div class="fraud-home-card-image fraud-photo-grandson">
+            <img
+    src="assets/FraudePetit_fils.jpg"
+    alt="Fraude petit-fils"
+    class="fraud-home-card-image"
+>
+          </div>
+
+          <div class="fraud-home-card-bar">
+            <strong>Fraude petit-fils</strong>
+            <span>En savoir plus ›</span>
+          </div>
+
+        </a>
+
+      </div>
+
+
+      <!-- ACCORDÉONS -->
+
+      <div class="fraud-home-accordions">
+
+        <details>
+
+          <summary>
+            Comment différencier un vol d’une fraude
+          </summary>
+
+          <p>
+            Un vol implique la prise d’un bien sans consentement,
+            tandis qu’une fraude repose généralement sur une tromperie
+            ou un abus de confiance.
+          </p>
+
+        </details>
+
+
+        <details>
+
+          <summary>
+            En savoir plus
+          </summary>
+
+          <p>
+            Consultez les fiches de fraude pour connaître les signes à surveiller,
+            les mesures de prévention et les recours possibles.
+          </p>
+
+        </details>
+
+      </div>
+
+
+      <!-- BOUTONS DU BAS -->
+
+      <nav class="fraud-home-cta-row">
+
+        <a
+          href="https://spvm.qc.ca/fr/Pages/Nous-joindre"
+          target="_blank"
+        >
+
+          <span>
+            JE VEUX<br>
+            <b>COMMUNIQUER</b><br>
+            AVEC LE SPVM
+          </span>
+
+          <strong>›</strong>
+
+        </a>
+
+
+        <a href="#">
+
+          <span>
+            JE VEUX FAIRE<br>
+            CARRIÈRE AU SEIN<br>
+            DU SPVM
+          </span>
+
+          <strong>›</strong>
+
+        </a>
+
+
+        <a href="#fraudes">
+
+          <span>
+            JE CHERCHE<br>
+            DE <b>L’INFORMATION</b>
+          </span>
+
+          <strong>›</strong>
+
+        </a>
+
+      </nav>
+
+
+    </div>
+
+  </section>
+
+</main>
+
+<footer class="site-footer" id="signaler">
+
+  <!-- TOP BLACK BAR -->
+  <div class="site-footer-topbar">
+    <div class="site-footer-shell site-footer-topbar-inner">
+
+      <strong>
+        POUR TOUTE URGENCE
+        <span>☎ 911</span>
+      </strong>
+
+      <div class="site-footer-socials">
+        <span>SUIVEZ LE SPVM</span>
+
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="X">𝕏</a>
+        <a href="#" aria-label="YouTube">▶</a>
+        <a href="#" aria-label="Galerie">▣</a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- MAIN FOOTER -->
+  <div class="site-footer-main">
+
+    <div class="site-footer-shell site-footer-grid">
+
+      <!-- LEFT -->
+      <section class="site-footer-col">
+
+        <img
+  src="assets/spvm_badge.png"
+  alt="Badge du SPVM"
+  class="footer-badge-image"
+>
+
+        <p>
+          Site officiel du Service de police de la Ville de Montréal
+        </p>
+
+        <p>
+          © 2004-2026, tous droits réservés.
+        </p>
+
+      </section>
+
+
+      <!-- MIDDLE -->
+      <section class="site-footer-col">
+
+        <h2>MESSAGE DE BIENVENUE</h2>
+
+        <div class="site-footer-language-grid">
+
+          <a href="#">العربية</a>
+          <a href="#">دری</a>
+
+          <a href="#">Български</a>
+          <a href="#">Fon</a>
+
+          <a href="#">Kreyòl</a>
+          <a href="#">ગુજરાતી</a>
+
+          <a href="#">Español</a>
+          <a href="#">Innu</a>
+
+          <a href="#">Italiano</a>
+          <a href="#">Lingala</a>
+
+          <a href="#">فارسی</a>
+          <a href="#">Türk</a>
+
+          <a href="#">Português</a>
+          <a href="#">Tiếng việt</a>
+
+          <a href="#">Deutsch</a>
+          <a href="#">English</a>
+
+          <a href="#">ελληνικά</a>
+          <a href="#">Français</a>
+
+        </div>
+
+      </section>
+
+
+      <!-- RIGHT -->
+      <section class="site-footer-col site-footer-col--search">
+
+        <h2>
+          <span class="site-footer-info-dot">i</span>
+          JE VEUX M'INFORMER
+        </h2>
+
+        <p>
+          Vous voulez vous renseigner? Consultez nos différentes fiches d’information :
+        </p>
+
+        <form
+          class="site-footer-search"
+          data-search-form
+          role="search"
+        >
+
+          <input
+            type="search"
+            placeholder="Recherche par mot(s) clé(s)"
+          >
+
+          <button type="submit" aria-label="Rechercher">
+            ⌕
+          </button>
+
+        </form>
+
+      </section>
+
+    </div>
+
+
+    <!-- MONTREAL LOGO -->
+    <div class="site-footer-bottom-logo">
+
+      <span class="site-footer-montreal-wordmark">
+        Montréal
+      </span>
+
+      <img
+  src="assets/montreal_logo.svg"
+  alt="Badge du SPVM"
+  class="footer-badge-image"
+>
+
+    </div>
+
+  </div>
+
+</footer>
+</body>
+</html>
